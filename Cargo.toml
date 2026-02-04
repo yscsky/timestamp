@@ -1,0 +1,18 @@
+[package]
+name = "timestamp"
+version = "1.0.0"
+edition = "2024"
+authors = ["ysc<skyholmes@163.com>"]
+description = "datetime and timestamp convert tool."
+license = "MIT"
+documentation = "https://github.com/yscsky/timestamp"
+homepage = "https://github.com/yscsky/timestamp"
+repository = "https://github.com/yscsky/timestamp"
+keywords = ["datetime", "timestamp"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0.100"
+chrono = "0.4.43"
+clap = { version = "4.5.57", features = ["derive"] }
+enum_dispatch = "0.3.13"
