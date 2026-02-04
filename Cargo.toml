@@ -8,6 +8,7 @@ license = "MIT"
 documentation = "https://github.com/yscsky/timestamp"
 homepage = "https://github.com/yscsky/timestamp"
 repository = "https://github.com/yscsky/timestamp"
+readme = "readme.md"
 keywords = ["datetime", "timestamp"]
 categories = ["command-line-utilities"]
 
