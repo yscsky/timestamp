@@ -305,7 +305,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "timestamp"
+name = "timestamp-ysc"
 version = "1.0.0"
 dependencies = [
  "anyhow",

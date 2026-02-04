@@ -1,5 +1,5 @@
 [package]
-name = "timestamp"
+name = "timestamp-ysc"
 version = "1.0.0"
 edition = "2024"
 authors = ["ysc<skyholmes@163.com>"]
@@ -10,6 +10,10 @@ homepage = "https://github.com/yscsky/timestamp"
 repository = "https://github.com/yscsky/timestamp"
 keywords = ["datetime", "timestamp"]
 categories = ["command-line-utilities"]
+
+[[bin]]
+name = "timestamp"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0.100"
